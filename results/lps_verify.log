@@ -1,0 +1,2 @@
+B: {'acyclic_instances': 300, 'literals_checked': 2468, 'tree_exact': [(2, 1, 4, 16), (2, 2, 3, 128), (3, 2, 2, 27), (2, 3, 3, 8192), (3, 1, 5, 243)], 'd_vs_ds': [(2, 2, 3), (3, 4, 5), (4, 8, 7), (5, 16, 9), (6, 32, 11), (7, 64, 13), (8, 128, 15), (9, 256, 17), (10, 512, 19)]}
+A: {'inst': 3000, 'with_dead': 1152, 'with_neg_fact': 1231, 'with_cycles': 341, 'goal_on_cycle': 276, 'replacements': 10420, 'seeds_tried': 4644, 'max_height_acyclic_Sz': 7}

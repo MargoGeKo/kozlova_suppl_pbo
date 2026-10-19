@@ -1,0 +1,12 @@
+DNF of y: 21 conj, lengths [7, 8] |Omega| = 184
+intermediate DNF sizes: {'qa': 3, 'qe': 2, 'qk': 2, 'qo': 3, 'qs': 2, 'qw': 3, 'y': 21}
+min cost 165 conj [(0, 1), (2, 0), (4, 1), (6, 1), (8, 1), (9, 1), (10, 1), (11, 1)]
+cost of x': 208  min edits: 2
+min-edit fixes: [(2, 135, [3, 10])]
+cheapest fix: (3, 97, [1, 10, 11])
+Pareto: nodes 595 leaves 78 efficient 16 E,C range (14, 165) (32, 495) after gluing 8 core {1: np.int64(1), 9: np.int64(1), 10: np.int64(1), 12: np.int64(1)}
+E>=24 needed for x2/x3: 24
+H=2: median |Omega| 322, efficient 15.5, DNF after gluing 7, core vars 3
+H=3: median |Omega| 226, efficient 15, DNF after gluing 7, core vars 3.5
+H=4: median |Omega| 154, efficient 13.5, DNF after gluing 8, core vars 3
+all 60: median [273.   14.5   7.    3. ]

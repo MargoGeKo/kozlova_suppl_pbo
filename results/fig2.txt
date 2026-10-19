@@ -1,0 +1,16 @@
+chain  GAEL  scan      ops = 1/2*nu^3 + 1*nu^2 + 7/2*nu + -3 ; slope(nu=81..321) = 2.99
+chain  GAEL  index     ops = 1*nu^2 + 4*nu + -3 ; slope(nu=81..321) = 1.97
+chain  GAEL  counters  ops = 4*nu + -2 ; slope(nu=81..321) = 1.00
+chain  LAEL  scan      ops = 1/2*nu^3 + 2*nu^2 + 21/2*nu + -8 ; slope(nu=81..321) = 2.97
+chain  LAEL  index     ops = 1*nu^2 + 12*nu + -8 ; slope(nu=81..321) = 1.93
+chain  LAEL  counters  ops = 12*nu + -7 ; slope(nu=81..321) = 1.00
+wide   GAEL  scan      ops = 1/2*nu^2 + 9/2*nu + 1 ; slope(nu=160..640) = 1.97
+wide   GAEL  index     ops = 4*nu + 1 ; slope(nu=160..640) = 1.00
+wide   GAEL  counters  ops = 3*nu ; slope(nu=160..640) = 1.00
+wide   LAEL  scan      ops = 1*nu^2 + 10*nu + 1 ; slope(nu=160..640) = 1.97
+wide   LAEL  index     ops = 19/2*nu + 1 ; slope(nu=160..640) = 1.00
+wide   LAEL  counters  ops = 17/2*nu ; slope(nu=160..640) = 1.00
+chain w=80: scan/(H*q*nu) = 0.5129
+chain w=160: scan/(H*q*nu) = 0.5063
+chain w=320: scan/(H*q*nu) = 0.5031
+chain w=640: scan/(H*q*nu) = 0.5016

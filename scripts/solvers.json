@@ -1,0 +1,7 @@
+{
+ "highs": "highs",
+ "scip": "scip",
+ "cpsat": "sat_runner",
+ "pysat": ".",
+ "pbcomp": {}
+}
